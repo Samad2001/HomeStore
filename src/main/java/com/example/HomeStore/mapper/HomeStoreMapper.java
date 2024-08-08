@@ -48,7 +48,7 @@ public class HomeStoreMapper {
 
     public Home toHome(Long id,HomeRequest homeRequest){
         return Home.builder()
-                .id(id)/*burda niye get etmirik*/
+                .id(id)
                 .area(homeRequest.getArea())
                 .rooms(homeRequest.getRooms())
                 .price(homeRequest.getPrice())
